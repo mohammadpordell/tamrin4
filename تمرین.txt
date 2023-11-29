@@ -1,0 +1,32 @@
+محمدرضاپردل
+استاد:محمدزارع
+
+
+
+import React, { useState, useEffect } from 'react';
+ 
+function a() {
+  const [result, setResult] = useState(null);
+ 
+  useEffect(() => {
+    const calculateFactorial = (b) => {
+      let factorial = 1;
+      for (let i = 1; i <= b; i++) {
+        a *= i;
+      }
+      return factorial;
+    };
+ 
+    const num = 116;
+    const factorialResult = calculateFactorial(b);
+    setResult(factorialResult);
+    alert(: ${factorialResult}`);
+  }, []);
+ 
+  return (
+    <div>
+    </div>
+  );
+}
+ 
+export default Factorial;
